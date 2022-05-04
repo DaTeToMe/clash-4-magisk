@@ -1,0 +1,3 @@
+- Flash with magisk
+- Copy config.yaml to /data/clash
+- Modify clash.config packages.list (optional)
