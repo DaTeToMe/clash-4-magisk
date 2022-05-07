@@ -1,4 +1,4 @@
-#### Google
+####Google
 com.android.vending
 com.google.android.play.games
 com.google.android.gms
@@ -13,27 +13,23 @@ com.google.android.feedback
 com.google.android.apps.docs
 com.google.android.gm
 com.google.android.onetimeinitializer
-#### Download
+####Download
 com.android.providers.downloads
-#### ViaGp
+####ViaGp
 mark.via.gp
-#### Microsoft
+####Microsoft
 com.microsoft.skydrive
 com.microsoft.office.outlook
 com.microsoft.office.officehubrow
-#### Telegram
+####Telegram
 org.telegram.messenger
-#### Okta
+####Okta
 com.okta.android.auth
-#### Poweramp
-com.maxmpz.audioplayer
-#### Mixplorer
+####Mixplorer
 com.mixplorer
-#### Stickman
+####Games
 com.byril.stickmanarcher
-#### PhantomRose
 com.phantomrosegame.phantomRoseScarlett
-#### Nameless系统更新
+####NamelessOTA
 org.nameless.updates
-#### LuckyPatcher
-ru.cllunvua.bguvazcsq
+####LuckyPatcher
