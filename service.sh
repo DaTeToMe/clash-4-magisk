@@ -1,5 +1,5 @@
 until [ $(getprop init.svc.bootanim) = "stopped" ] ; do
-    sleep 4
+    sleep 5
 done
 
 service_path=`realpath $0`
