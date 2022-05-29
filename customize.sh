@@ -8,27 +8,6 @@ clash_data_dir="/data/clash"
 modules_dir="/data/adb/modules"
 ca_path="/system/etc/security/cacerts"
 mod_config="${clash_data_dir}/clash.config"
-# geoip_file_path="${clash_data_dir}/Country.mmdb"
-# CPFM_mode_dir="${modules_dir}/clash_premium"
-
-# if [ -d "${CPFM_mode_dir}" ] ; then
-#     touch ${CPFM_mode_dir}/remove && ui_print "- CPFM模块在重启后将会被删除."
-# fi
-
-# case "${ARCH}" in
-#     arm)
-#         architecture="armv7"
-#         ;;
-#     arm64)
-#         architecture="armv8"
-#         ;;
-#     x86)
-#         architecture="386"
-#         ;;
-#     x64)
-#         architecture="amd64"
-#         ;;
-# esac
 
 mkdir -p ${MODPATH}/system/bin
 mkdir -p ${clash_data_dir}
@@ -60,7 +39,6 @@ rm -rf ${MODPATH}/binary
 
 if [ ! -f "${clash_data_dir}/packages.list" ] ; then
     mv ${MODPATH}/data/packages.list ${clash_data_dir}/
-    # touch ${clash_data_dir}/packages.list
 else
     rm -rf ${MODPATH}/data/packages.list
 fi
