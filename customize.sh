@@ -17,8 +17,8 @@ unzip -o "${ZIPFILE}" -x 'META-INF/*' -d $MODPATH >&2
 
 if [ "$(md5sum ${MODPATH}/data/clash.config | awk '{print $1}')" != "$(md5sum ${mod_config} | awk '{print $1}')" ] ; then
     if [ -f "${mod_config}" ] ; then
-        mv -f ${mod_config} ${clash_data_dir}/config.backup
-        ui_print "- 配置文件有变化,原配置文件已备份为config.backup"
+        mv -f ${mod_config} ${clash_data_dir}/clash.config.backup
+        ui_print "- 配置文件有变化,原配置文件已备份为clash.config.backup"
         ui_print "- 建议查看配置文件无误后再重启手机"
     fi
     mv ${MODPATH}/data/clash.config ${clash_data_dir}/
